@@ -38,7 +38,7 @@
 				<artifactId>flexmojos-maven-plugin</artifactId>
 				<extensions>true</extensions>
 				<configuration>
-					<sourceFile>edu/isi/bmkeg/kefed/bin/KefedDesignerApp2.mxml</sourceFile>
+					<sourceFile>edu/isi/bmkeg/lapdftextModule/bin/lapdftextClientApp.mxml</sourceFile>
 					<swfVersion>11</swfVersion>
 					<compilerWarnings>
 						<warn-no-constructor>false</warn-no-constructor>
@@ -117,12 +117,6 @@
 			<groupId>com.adobe.flex.framework</groupId>
 			<artifactId>playerglobal</artifactId>
 			<classifier>${flashplayer.version.major}</classifier>  <!-- the classifier specifies the target flash player major version -->
-			<type>swc</type>
-		</dependency>
-
-		<dependency>
-			<groupId>com.adobe.flexunit</groupId>
-			<artifactId>flexunit</artifactId>
 			<type>swc</type>
 		</dependency>
 
