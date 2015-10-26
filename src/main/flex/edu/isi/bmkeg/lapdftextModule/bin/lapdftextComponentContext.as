@@ -14,7 +14,7 @@ package edu.isi.bmkeg.lapdftextModule.bin
 		override public function startup():void
 		{
 			// map the modules so that instances will be properly supplied (injected) with an injector.
-			viewMap.mapType(LapdftextModule_xx);		
+			viewMap.mapType(LapdftextModule);		
 		}
 		
 	}

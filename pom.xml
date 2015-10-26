@@ -11,13 +11,12 @@
 	</parent>
 
 	<artifactId>lapdftextClientApp</artifactId>
-	<version>1.1.5-SNAPSHOT</version>
 	<name>Lapdftext Client Application</name>
 	<packaging>swf</packaging>
 
 	<properties>
 		<flexmojos.version>4.2-beta</flexmojos.version>
-		<flex.version>4.5.0.20967</flex.version>
+		<flex.version>4.5.1.21328</flex.version>
 		<flashplayer.version.major>10.2</flashplayer.version.major>
 		<flashplayer.version.minor>0</flashplayer.version.minor>
 		<flexunit.version>4.1-RC2</flexunit.version>
@@ -140,7 +139,6 @@
 
 		<dependency>
 			<groupId>org.robotlegs</groupId>
-			<version>1.5.2</version>
 			<type>swc</type>
 			<artifactId>robotlegs-framework</artifactId>
 		</dependency>

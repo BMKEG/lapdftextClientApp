@@ -13,6 +13,6 @@
 		<bin:lapdftextComponentContext contextView="{this}" />
 	</fx:Declarations>
 
-	<lapdftext:LapdftextModule_xx label="Text Extraction" id="lapdftext" height="100%" width="100%"/>
+	<lapdftext:LapdftextModule label="Text Extraction" id="lapdftext" height="100%" width="100%"/>
 	
 </s:Application>
